@@ -1,3 +1,5 @@
+// головний клас
+
 // enum клас констант для відображення значень параметрів сутності "Product"
 enum class ProductParams {
     NAME, MANUFACTURER, QUANTITY, PRICE;

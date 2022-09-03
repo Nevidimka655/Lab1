@@ -36,7 +36,7 @@ fun main(args: Array<String>) {
     submitSearchQuery(searchQuery = querySearchText()) // викликаємо функцію пошуку
     printSearchResults() // виводимо результати пошуку
     if (searchResults.isNotEmpty()) {
-        printDivider() // виводимо роздільник
+        printDivider() // виводимо роздільниr
         performEditFromSearch() // викликаємо меню редагування знайдених товарів
     }
 }

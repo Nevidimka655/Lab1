@@ -31,13 +31,13 @@ fun main(args: Array<String>) {
     printMaxQuantityProducts() // виводимо товари з найбільшою кількістю
     printAveragePrice() // виводимо середню ціну
     printLowerAveragePriceCount() // виводимо товари, нижче за середню ціну
-    printDescByPrice() // виводимо
+    printDescByPrice() // виводимо товари за спаданням ціни
     printDivider() // виводимо роздільник
-    submitSearchQuery(searchQuery = querySearchText())
-    printSearchResults()
+    submitSearchQuery(searchQuery = querySearchText()) // викликаємо функцію пошуку
+    printSearchResults() // виводимо результати пошуку
     if (searchResults.isNotEmpty()) {
         printDivider() // виводимо роздільник
-        performEditFromSearch()
+        performEditFromSearch() // викликаємо меню редагування знайдених товарів
     }
 }
 
